@@ -1,5 +1,8 @@
 name: Free Disk Space (Ubuntu)
-on: push
+
+on: 
+  repository_dispatch:
+  workflow_dispatch:
 
 jobs:
   free-disk-space:
